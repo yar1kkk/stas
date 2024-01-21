@@ -1,0 +1,53 @@
+body {
+  margin: 5px;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  padding: 20px 40px;
+  margin-left: 30px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 8px;
+  width: fit-content;
+
+  h2 {
+    margin-top: 0;
+  }
+
+  .inputBox {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+}
+
+form,
+ul {
+  button {
+    background-color: #4267b2;
+    color: white;
+    padding: 7px 15px;
+    border-radius: 8px;
+    outline: none;
+    font-size: 15px;
+    cursor: pointer;
+    border: none;
+  }
+  button:hover {
+    opacity: 0.9;
+  }
+}
+
+.listButton {
+  margin-left: 7px;
+}
+.listButton:nth-child(1) {
+  background-color: rgb(200, 35, 35);
+}
+
+.listButton:nth-child(2) {
+  background-color: rgb(209, 209, 33);
+}
